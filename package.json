@@ -1,0 +1,16 @@
+{
+  "name": "ranaly4wave",
+  "version": "0.0.2",
+  "private": "true",
+  "description": "Ranaly client library",
+  "keywords": ["ranaly"],
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MangroveTech/node_ranaly"
+  },
+  "dependencies": {
+    "redis": "*",
+    "ranaly": "*"
+  }
+}

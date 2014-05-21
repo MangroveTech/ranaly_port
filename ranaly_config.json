@@ -1,0 +1,29 @@
+{
+  "name": "pp",
+  "clients": [
+    {
+      "type": "Amount",
+      "name": "message",
+      "methods": {
+        "success": "incr",
+        "failure": "incr" 
+      }
+    },
+    {
+      "type": "Amount",
+      "name": "reply",
+      "methods": {
+        "success": "incr",
+        "failure": "incr" 
+      }
+    },
+    {
+      "type": "Amount",
+      "name": "push",
+      "methods": {
+        "success": "incr",
+        "failure": "incr" 
+      }
+    }
+  ]
+}
