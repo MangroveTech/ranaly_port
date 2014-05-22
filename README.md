@@ -7,7 +7,7 @@ Ranaly4Wave 是 [node_ranaly](https://github.com/luin/node_ranaly) 的简单封�
 
 在 package.json 添加
 
-    "ranaly": "https://github.com/MangroveTech/ranaly_port/archive/0.0.1.tar.gz"
+    "ranaly_port": "https://github.com/MangroveTech/ranaly_port/archive/0.0.3.tar.gz"
     
 ## 使用方法
 
@@ -23,7 +23,7 @@ Ranaly4Wave 是 [node_ranaly](https://github.com/luin/node_ranaly) 的简单封�
 
     var redis = require('redis').createClient();
     var config = require('./ranaly_config');
-    var ranaly = require('ranaly')(redis, config);
+    var ranaly = require('ranaly_port')(redis, config);
     ...
     app.post('/message', function (req, res) {
       ...

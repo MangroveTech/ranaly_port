@@ -1,6 +1,6 @@
 {
-  "name": "ranaly",
-  "version": "0.0.2",
+  "name": "ranaly_port",
+  "version": "0.0.3",
   "private": "true",
   "description": "Ranaly client library",
   "keywords": ["ranaly"],
