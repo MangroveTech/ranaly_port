@@ -7,7 +7,7 @@ Ranaly4Wave 是 [node_ranaly](https://github.com/luin/node_ranaly) 的简单封�
 
 在 package.json 添加
 
-    ranaly: "https://github.com/MangroveTech/ranaly_port/archive/0.0.1.tar.gz"
+    "ranaly": "https://github.com/MangroveTech/ranaly_port/archive/0.0.1.tar.gz"
     
 ## 使用方法
 
